@@ -20,8 +20,8 @@ class solider:
         else:
             print(f"{self.name} failed to fire")
 if __name__ == "__main__":
-     alex = solider("xusanduo")
-     alex.change_gun(gun("AK47", 9))
+     alex = solider("alex")
+     alex.change_gun(gun("AK47", 8))
      alex.fire()
      alex.fire()
      alex.fire()
